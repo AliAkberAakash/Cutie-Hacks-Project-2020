@@ -1,12 +1,16 @@
 package com.aliakberaakash.cutiehacksproject2020.ui.features.feed
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.aliakberaakash.cutiehacksproject2020.R
+import com.aliakberaakash.cutiehacksproject2020.ui.features.feed.FeedRecyclerViewAdapter.MyRecyclerViewAdapter
+
 
 class FeedFragment : Fragment() {
 
@@ -27,6 +31,8 @@ class FeedFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(FeedViewModel::class.java)
         // TODO: Use the ViewModel
+
+
     }
 
 }
