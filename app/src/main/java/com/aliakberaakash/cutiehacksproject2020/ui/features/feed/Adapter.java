@@ -1,12 +1,12 @@
 package com.aliakberaakash.cutiehacksproject2020.ui.features.feed;
 
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.TextView
-import androidx.recyclerview.widget.RecyclerView
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import androidx.recyclerview.widget.RecyclerView;
 import com.aliakberaakash.cutiehacksproject2020.R;
-import com.aliakberaakash.cutiehacksproject2020.model.Cat
+import com.aliakberaakash.cutiehacksproject2020.model.Cat;
 
 class CatAdapter(
         private val listCat: ArrayList<Cat>
