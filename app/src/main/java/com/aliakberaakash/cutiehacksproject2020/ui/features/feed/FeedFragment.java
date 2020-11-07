@@ -13,6 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.aliakberaakash.cutiehacksproject2020.R;
+import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+
 
 public class FeedFragment extends Fragment {
 
@@ -32,6 +35,7 @@ public class FeedFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         mViewModel = new ViewModelProvider(this).get(FeedViewModel.class);
+
         // TODO: Use the ViewModel
     }
 
